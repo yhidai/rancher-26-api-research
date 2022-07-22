@@ -1,0 +1,150 @@
+{
+  "type": "collection",
+  "links": {
+    "self": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools"
+  },
+  "createTypes": {
+    "nodePool": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools"
+  },
+  "actions": {},
+  "pagination": {
+    "limit": 1000,
+    "total": 2
+  },
+  "sort": {
+    "order": "asc",
+    "reverse": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?order=desc",
+    "links": {
+      "displayName": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?sort=displayName",
+      "hostnamePrefix": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?sort=hostnamePrefix",
+      "state": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?sort=state",
+      "transitioning": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?sort=transitioning",
+      "transitioningMessage": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?sort=transitioningMessage",
+      "uuid": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodepools?sort=uuid"
+    }
+  },
+  "filters": {
+    "clusterId": null,
+    "controlPlane": null,
+    "created": null,
+    "creatorId": null,
+    "deleteNotReadyAfterSecs": null,
+    "displayName": null,
+    "drainBeforeDelete": null,
+    "etcd": null,
+    "hostnamePrefix": null,
+    "name": null,
+    "namespaceId": null,
+    "nodeTemplateId": null,
+    "quantity": null,
+    "removed": null,
+    "state": null,
+    "transitioning": null,
+    "transitioningMessage": null,
+    "uuid": null,
+    "worker": null
+  },
+  "resourceType": "nodePool",
+  "data": [
+    {
+      "annotations": {
+        "lifecycle.cattle.io/create.nodepool-provisioner": "true",
+        "nodepool.cattle.io/reconcile": ""
+      },
+      "baseType": "nodePool",
+      "clusterId": "c-8hs8r",
+      "controlPlane": true,
+      "created": "2022-07-20T07:41:14Z",
+      "createdTS": 1658302874000,
+      "creatorId": "user-8fzfz",
+      "deleteNotReadyAfterSecs": 0,
+      "displayName": "",
+      "drainBeforeDelete": false,
+      "driver": "cloudstack",
+      "etcd": true,
+      "hostnamePrefix": "cloudstack-0720-1640",
+      "id": "c-8hs8r:np-xxz77",
+      "labels": {
+        "cattle.io/creator": "norman"
+      },
+      "links": {
+        "nodes": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodes?nodePoolId=c-8hs8r%3Anp-xxz77",
+        "remove": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodePools/c-8hs8r:np-xxz77",
+        "self": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodePools/c-8hs8r:np-xxz77",
+        "update": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodePools/c-8hs8r:np-xxz77"
+      },
+      "name": "np-xxz77",
+      "namespaceId": null,
+      "nodeAnnotations": null,
+      "nodeLabels": null,
+      "nodeTemplateId": "cattle-global-nt:nt-kq7bz",
+      "quantity": 1,
+      "state": "active",
+      "status": {
+        "conditions": [
+          {
+            "lastUpdateTime": "2022-07-20T07:41:14Z",
+            "status": "True",
+            "type": "Updated"
+          }
+        ],
+        "type": "/v3/schemas/nodePoolStatus"
+      },
+      "transitioning": "no",
+      "transitioningMessage": "",
+      "type": "nodePool",
+      "uuid": "bb5a401c-0a81-466c-bdf5-54cf0ebb1cc7",
+      "worker": true
+    },
+    {
+      "annotations": {
+        "lifecycle.cattle.io/create.nodepool-provisioner": "true",
+        "nodepool.cattle.io/reconcile": ""
+      },
+      "baseType": "nodePool",
+      "clusterId": "c-x7rpk",
+      "controlPlane": true,
+      "created": "2022-07-20T07:30:53Z",
+      "createdTS": 1658302253000,
+      "creatorId": "user-8fzfz",
+      "deleteNotReadyAfterSecs": 0,
+      "displayName": "",
+      "drainBeforeDelete": false,
+      "driver": "cloudstack",
+      "etcd": true,
+      "hostnamePrefix": "cloudstack-0720-1629",
+      "id": "c-x7rpk:np-hq2c4",
+      "labels": {
+        "cattle.io/creator": "norman"
+      },
+      "links": {
+        "nodes": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodes?nodePoolId=c-x7rpk%3Anp-hq2c4",
+        "remove": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodePools/c-x7rpk:np-hq2c4",
+        "self": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodePools/c-x7rpk:np-hq2c4",
+        "update": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v3/nodePools/c-x7rpk:np-hq2c4"
+      },
+      "name": "np-hq2c4",
+      "namespaceId": null,
+      "nodeAnnotations": null,
+      "nodeLabels": null,
+      "nodeTemplateId": "cattle-global-nt:nt-kq7bz",
+      "quantity": 1,
+      "state": "active",
+      "status": {
+        "conditions": [
+          {
+            "lastUpdateTime": "2022-07-20T07:30:53Z",
+            "status": "True",
+            "type": "Updated"
+          }
+        ],
+        "type": "/v3/schemas/nodePoolStatus"
+      },
+      "transitioning": "no",
+      "transitioningMessage": "",
+      "type": "nodePool",
+      "uuid": "36bccb44-8537-4aff-990d-0aa149f559f6",
+      "worker": true
+    }
+  ]
+}

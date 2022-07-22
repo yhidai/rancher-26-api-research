@@ -1,0 +1,273 @@
+{
+  "type": "collection",
+  "links": {
+    "self": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v1/management.cattle.io.nodepools"
+  },
+  "actions": {},
+  "resourceType": "management.cattle.io.nodepool",
+  "revision": "1997968",
+  "data": [
+    {
+      "id": "c-8hs8r/np-xxz77",
+      "type": "management.cattle.io.nodepool",
+      "links": {
+        "remove": "blocked",
+        "self": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v1/management.cattle.io.nodepools/c-8hs8r/np-xxz77",
+        "update": "blocked",
+        "view": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/apis/management.cattle.io/v3/namespaces/c-8hs8r/nodepools/np-xxz77"
+      },
+      "apiVersion": "management.cattle.io/v3",
+      "kind": "NodePool",
+      "metadata": {
+        "annotations": {
+          "field.cattle.io/creatorId": "user-8fzfz",
+          "lifecycle.cattle.io/create.nodepool-provisioner": "true",
+          "nodepool.cattle.io/reconcile": ""
+        },
+        "creationTimestamp": "2022-07-20T07:41:14Z",
+        "fields": [
+          "np-xxz77",
+          "25h"
+        ],
+        "finalizers": [
+          "controller.cattle.io/nodepool-provisioner"
+        ],
+        "generateName": "np-",
+        "generation": 3,
+        "labels": {
+          "cattle.io/creator": "norman"
+        },
+        "managedFields": [
+          {
+            "apiVersion": "management.cattle.io/v3",
+            "fieldsType": "FieldsV1",
+            "fieldsV1": {
+              "f:metadata": {
+                "f:annotations": {
+                  ".": {},
+                  "f:field.cattle.io/creatorId": {}
+                },
+                "f:generateName": {},
+                "f:labels": {
+                  ".": {},
+                  "f:cattle.io/creator": {}
+                }
+              },
+              "f:spec": {
+                ".": {},
+                "f:clusterName": {},
+                "f:controlPlane": {},
+                "f:deleteNotReadyAfterSecs": {},
+                "f:drainBeforeDelete": {},
+                "f:etcd": {},
+                "f:hostnamePrefix": {},
+                "f:nodeTemplateName": {},
+                "f:quantity": {},
+                "f:worker": {}
+              }
+            },
+            "manager": "Go-http-client",
+            "operation": "Update",
+            "time": "2022-07-20T07:41:14Z"
+          },
+          {
+            "apiVersion": "management.cattle.io/v3",
+            "fieldsType": "FieldsV1",
+            "fieldsV1": {
+              "f:metadata": {
+                "f:annotations": {
+                  "f:lifecycle.cattle.io/create.nodepool-provisioner": {},
+                  "f:nodepool.cattle.io/reconcile": {}
+                },
+                "f:finalizers": {
+                  ".": {},
+                  "v:\"controller.cattle.io/nodepool-provisioner\"": {}
+                }
+              },
+              "f:spec": {
+                "f:displayName": {},
+                "f:nodeAnnotations": {},
+                "f:nodeLabels": {}
+              },
+              "f:status": {
+                ".": {},
+                "f:conditions": {}
+              }
+            },
+            "manager": "rancher",
+            "operation": "Update",
+            "time": "2022-07-20T07:41:14Z"
+          }
+        ],
+        "name": "np-xxz77",
+        "namespace": "c-8hs8r",
+        "relationships": null,
+        "resourceVersion": "1640161",
+        "selfLink": "/apis/management.cattle.io/v3/namespaces/c-8hs8r/nodepools/np-xxz77",
+        "state": {
+          "error": false,
+          "message": "Resource is current",
+          "name": "active",
+          "transitioning": false
+        },
+        "uid": "bb5a401c-0a81-466c-bdf5-54cf0ebb1cc7"
+      },
+      "spec": {
+        "clusterName": "c-8hs8r",
+        "controlPlane": true,
+        "deleteNotReadyAfterSecs": 0,
+        "displayName": "",
+        "drainBeforeDelete": false,
+        "etcd": true,
+        "hostnamePrefix": "cloudstack-0720-1640",
+        "nodeAnnotations": null,
+        "nodeLabels": null,
+        "nodeTemplateName": "cattle-global-nt:nt-kq7bz",
+        "quantity": 1,
+        "worker": true
+      },
+      "status": {
+        "conditions": [
+          {
+            "error": false,
+            "lastUpdateTime": "2022-07-20T07:41:14Z",
+            "status": "True",
+            "transitioning": false,
+            "type": "Updated"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c-x7rpk/np-hq2c4",
+      "type": "management.cattle.io.nodepool",
+      "links": {
+        "remove": "blocked",
+        "self": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/v1/management.cattle.io.nodepools/c-x7rpk/np-hq2c4",
+        "update": "blocked",
+        "view": "https://rancher26.idcfcloud.com.yhidai.bdg.egg.jp/apis/management.cattle.io/v3/namespaces/c-x7rpk/nodepools/np-hq2c4"
+      },
+      "apiVersion": "management.cattle.io/v3",
+      "kind": "NodePool",
+      "metadata": {
+        "annotations": {
+          "field.cattle.io/creatorId": "user-8fzfz",
+          "lifecycle.cattle.io/create.nodepool-provisioner": "true",
+          "nodepool.cattle.io/reconcile": ""
+        },
+        "creationTimestamp": "2022-07-20T07:30:53Z",
+        "fields": [
+          "np-hq2c4",
+          "25h"
+        ],
+        "finalizers": [
+          "controller.cattle.io/nodepool-provisioner"
+        ],
+        "generateName": "np-",
+        "generation": 3,
+        "labels": {
+          "cattle.io/creator": "norman"
+        },
+        "managedFields": [
+          {
+            "apiVersion": "management.cattle.io/v3",
+            "fieldsType": "FieldsV1",
+            "fieldsV1": {
+              "f:metadata": {
+                "f:annotations": {
+                  ".": {},
+                  "f:field.cattle.io/creatorId": {}
+                },
+                "f:generateName": {},
+                "f:labels": {
+                  ".": {},
+                  "f:cattle.io/creator": {}
+                }
+              },
+              "f:spec": {
+                ".": {},
+                "f:clusterName": {},
+                "f:controlPlane": {},
+                "f:deleteNotReadyAfterSecs": {},
+                "f:drainBeforeDelete": {},
+                "f:etcd": {},
+                "f:hostnamePrefix": {},
+                "f:nodeTemplateName": {},
+                "f:quantity": {},
+                "f:worker": {}
+              }
+            },
+            "manager": "Go-http-client",
+            "operation": "Update",
+            "time": "2022-07-20T07:30:53Z"
+          },
+          {
+            "apiVersion": "management.cattle.io/v3",
+            "fieldsType": "FieldsV1",
+            "fieldsV1": {
+              "f:metadata": {
+                "f:annotations": {
+                  "f:lifecycle.cattle.io/create.nodepool-provisioner": {},
+                  "f:nodepool.cattle.io/reconcile": {}
+                },
+                "f:finalizers": {
+                  ".": {},
+                  "v:\"controller.cattle.io/nodepool-provisioner\"": {}
+                }
+              },
+              "f:spec": {
+                "f:displayName": {},
+                "f:nodeAnnotations": {},
+                "f:nodeLabels": {}
+              },
+              "f:status": {
+                ".": {},
+                "f:conditions": {}
+              }
+            },
+            "manager": "rancher",
+            "operation": "Update",
+            "time": "2022-07-20T07:30:53Z"
+          }
+        ],
+        "name": "np-hq2c4",
+        "namespace": "c-x7rpk",
+        "relationships": null,
+        "resourceVersion": "1637397",
+        "selfLink": "/apis/management.cattle.io/v3/namespaces/c-x7rpk/nodepools/np-hq2c4",
+        "state": {
+          "error": false,
+          "message": "Resource is current",
+          "name": "active",
+          "transitioning": false
+        },
+        "uid": "36bccb44-8537-4aff-990d-0aa149f559f6"
+      },
+      "spec": {
+        "clusterName": "c-x7rpk",
+        "controlPlane": true,
+        "deleteNotReadyAfterSecs": 0,
+        "displayName": "",
+        "drainBeforeDelete": false,
+        "etcd": true,
+        "hostnamePrefix": "cloudstack-0720-1629",
+        "nodeAnnotations": null,
+        "nodeLabels": null,
+        "nodeTemplateName": "cattle-global-nt:nt-kq7bz",
+        "quantity": 1,
+        "worker": true
+      },
+      "status": {
+        "conditions": [
+          {
+            "error": false,
+            "lastUpdateTime": "2022-07-20T07:30:53Z",
+            "status": "True",
+            "transitioning": false,
+            "type": "Updated"
+          }
+        ]
+      }
+    }
+  ]
+}
